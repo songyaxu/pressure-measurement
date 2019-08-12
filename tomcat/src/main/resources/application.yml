@@ -1,0 +1,10 @@
+server:
+  port: 8081
+  name: tomcat
+  tomcat:
+    max-threads: 400
+springmvc:
+  thread:
+    core: 10
+    max: 400
+    queue: 200
